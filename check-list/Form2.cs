@@ -52,5 +52,18 @@ namespace check_list
                       
             form3.Show();
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form4 form4 = new Form4();
+            form4.Tag = this; // сохраняем ссылку в form2.Tag
+            this.Hide();
+            form4.Show();
+        }
     }
 }
