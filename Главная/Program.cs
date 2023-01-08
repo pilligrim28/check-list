@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace check_list
+namespace Главная
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace check_list
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new glavnaya());
+            Application.Run(new Form1());
         }
     }
 }
